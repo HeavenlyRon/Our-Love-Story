@@ -1,0 +1,16 @@
+{
+  "name": "our-love-story",
+  "version": "1.0.0",
+  "description": "A romantic personal website showcasing our love story",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "servor --reload"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.19.0",
+    "servor": "^4.0.2"
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo" data-aos="fade-down">Our Story</div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li data-aos="fade-down" data-aos-delay="100"><a href="#home">Home</a></li>
+                <li data-aos="fade-down" data-aos-delay="200"><a href="#story">Our Story</a></li>
+                <li data-aos="fade-down" data-aos-delay="300"><a href="#gallery">Gallery</a></li>
+                <li data-aos="fade-down" data-aos-delay="400"><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">
+                    <span>Our Love</span>
+                    <span>Story</span>
+                </h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Every moment with you is a page in our beautiful story
+                </p>
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="400">
+                    <span>Scroll to Explore</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section id="story" class="story">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Our Journey</h2>
+                <div class="story-content">
+                    <div class="story-video" data-aos="fade-right">
+                        <video autoplay muted loop src="imgs/vid1.mp4" alt="Our special moment">
+                    </div>
+                    <div class="story-text" data-aos="fade-left">
+                        <p>Every love story is unique, but ours seems to have been arranged since the very beginning, bursting with the most potent of brilliance as if scripted by the universe itself. From the first moments when our paths crossed, amidst countless adventures, every moment has been nothing but a fairy tale. There was laughter drifting down the corridors of time, dreams stretching out until they touch infinity, and a connection that only strengthens with every passing day. But then there were storms, too—arguments that tested our patience, doubts that crept into our hearts, and instances when the burden felt too much to carry. With every challenge we faced, our bond strengthened as we learned more about each other and about love itself. Together we created a tapestry of memories, each woven with threads of joy, sorrow, and tenacity, a story that will continue forever in history as witness to the beautiful journey we have faced together and conquered.</p>
+                        <div class="story-stats">
+                            <div class="stat" data-aos="zoom-in" data-aos-delay="200">
+                                <span class="stat-number" id="days-counter">150</span>
+                                <span class="stat-label">Days Together</span>
+                            </div>
+                            <div class="stat" data-aos="zoom-in" data-aos-delay="300">
+                                <span class="stat-number">∞</span>
+                                <span class="stat-label">Love</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Precious Moments</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-aos="fade-up">
+                        <div class="gallery-image">
+                            <img src="imgs/img4.jpg" alt="Memory 2">
+                            <div class="gallery-overlay">
+                                <p>The Best Night We've Spent Together</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="gallery-image">
+                            <img src="imgs/img3.jpg" alt="Memory 3">
+                            <div class="gallery-overlay">
+                                <p>Our First Memorable Night Meeting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="gallery-image">
+                            <img src="imgs/img2.jpg" alt="Memory 4">
+                            <div class="gallery-overlay">
+                                <p>Celebrating Christmas Together</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="gallery-image">
+                            <img src="imgs/img1.png" alt="Memory 5">
+                            <div class="gallery-overlay">
+                                <p>Forever And Always</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="connect">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Write to Us</h2>
+                <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="form-group">
+                        <input type="text" required>
+                        <label>Your Name</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required>
+                        <label>Your Email</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea required></textarea>
+                        <label>Your Message</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21.5 12h-18M16 6.5l5.5 5.5-5.5 5.5"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal">
+        <div class="modal-content">
+            <img src="" alt="Gallery image">
+            <button class="modal-close">&times;</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
